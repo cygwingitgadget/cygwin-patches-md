@@ -11,7 +11,7 @@ env:
   TARGET_REPO: cygwin-patches-md.git
 
 jobs:
-  digest:
+  sync:
     if: github.repository == 'cygwingitgadget/cygwin-patches-md'
     runs-on: ubuntu-latest
     permissions:
